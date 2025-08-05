@@ -2,7 +2,7 @@
 
 import { useQuery } from "@apollo/client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { GET_USERS } from "@/graphql/queries";
+import { GET_USERS } from "@/modules/home/queries";
 import { CheckHelloQuery } from "@/queries/__generated__/graphql";
 
 interface ExampleComponentProps {

@@ -1,6 +1,6 @@
 "use client";
 
-import ExampleComponent from "@/components/example-component";
+import ExampleComponent from "@/modules/home/example-component";
 import { Button } from "@/components/ui/button";
 import {
 	Card,

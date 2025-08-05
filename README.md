@@ -60,16 +60,20 @@ src/
 │   ├── globals.css     # Global styles
 │   ├── layout.tsx      # Root layout
 │   └── page.tsx        # Home page
-├── components/         # React components
-│   ├── ui/            # shadcn/ui components
-│   └── apollo-wrapper.tsx
+├── components/         # components
+│   └── ui/            # shadcn/ui components
+│── config/            # App configuration
+├── modules/           # Feature modules
+│   └── home/          # Home module
+│       ├── types/     # Type definitions for the home module
+│       ├── example-component.tsx
+│       └── queries.ts # GraphQL queries for the home module
+├── providers/         # Feature modules
+│   └── apollo/ # Apollo Client configuration
 ├── lib/               # Utility functions
 │   ├── utils.ts       # shadcn/ui utilities
 │   └── apollo-client.ts # Apollo Client configuration
-├── graphql/           # GraphQL queries and mutations
-│   └── queries.ts
-└── types/             # TypeScript type definitions
-    └── index.ts
+└── queries/             # Auto-generated GraphQL queries configuration from GraphQL API Schema
 ```
 
 ## 🔧 Configuration
